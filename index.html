@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Website</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen bg-gray-100" >
+    <div>
+    <header>
+    <!-- Navbar -->
+    <nav class="bg-blue-900 p-4 text-white flex justify-between items-center ">
+        <h1 class="text-2xl font-bold">Business Name</h1>
+        <ul class="md:flex space-x-4 ">
+            <li><a href="#home" class="hover:underline">Home</a></li>
+            <li><a href="#services" class="hover:underline">Services</a></li>
+            <li><a href="#about" class="hover:underline">About</a></li>
+            <li><a href="#contact" class="hover:underline">Contact</a></li>
+            <li><a href="#blog" class="hover:underline">Blog</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="home" class="bg-blue-500 text-white text-center py-20">
+        <h2 class="text-4xl font-bold">Welcome to Our Business</h2>
+        <p class="mt-4">We provide the best solutions for your needs</p>
+        <a href="#contact" class="mt-6 inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold w-30 h-12 shadow-lg transition-all duration-500 hover:scale-110 hover:shadow-2xl ">click me..!</a>
+    </div>
+    </header>
+
+    <!-- Service Section -->
+    <section id="services" class="py-20 px-6">
+        <h2 class="text-3xl font-bold text-center">Our Services</h2>
+        <div class="grid md:grid-cols-3 gap-6 mt-8 ">
+            <div class="bg-white p-6 rounded-lg shadow-md text-center w-85 h-40 flex items-center justify-center  
+            shadow-lg transition-all duration-500 hover:scale-110 hover:shadow-2xl ">
+                <h3 class="text-xl font-semibold text-black cursor:pointer">One</h3>
+                <p class="mt-8 text-gray-600 cursor:pointer">service one</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md text-center w-85 h-40 flex items-center justify-center  
+            shadow-lg transition-all duration-500 hover:scale-110 hover:shadow-2xl">
+                <h3 class=" text-xl font-semibold text-black cursor:pointer ">Two</h3>
+                <p class="mt-8 text-gray-600 cursor:pointer">service two</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md text-center w-85 h-40 flex items-center justify-center 
+            shadow-lg transition-all duration-500 hover:scale-110 hover:shadow-2xl">
+                <h3 class="text-xl font-semibold  text-black cursor:pointer">Three</h3>
+                <p class="mt-8 text-gray-600 cursor:pointer">service three</p>
+            </div>
+        </div>
+    
+    <div class="fixed top-1/2 right-4 flex flex-col space-y-4">
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/your-number" target="_blank" class="p-3 bg-green-500 rounded-full shadow-lg hover:bg-green-600">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="w-7 h-7">
+        </a>
+        
+        <!-- Twitter (X) -->
+        <a href="https://twitter.com/your-profile" target="_blank" class="p-3 bg-black rounded-full shadow-lg hover:bg-gray-900">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="X (Twitter)" class="w-7 h-7">
+        </a>
+        
+        <!-- Facebook -->
+        <a href="https://facebook.com/your-profile" target="_blank" class="p-3 bg-blue-600 rounded-full shadow-lg hover:bg-blue-700">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="w-7 h-7">
+        </a>
+    </div>
+</section>
+
+    
+
+    <!-- About  -->
+    <section id="about" class="bg-gray-200 py-20 px-6 text-center">
+        <h2 class="text-3xl font-bold">About Us</h2>
+        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">We are a company dedicated to providing top-notch services. Our team of experts ensures high-quality results and customer satisfaction.</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 px-6 text-center">
+        <h2 class="text-3xl font-bold">Contact Us</h2>
+        <p class="mt-4 text-gray-600">Reach out to us for more information</p>
+        <a href="mailto:info@business.com" class="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold w-30 h-12 shadow-lg transition-all duration-500 hover:scale-110 hover:shadow-2xl">Email us</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white text-center p-4">
+        <p>&copy; 2025 Business Name. All Rights Reserved.</p>
+    </footer>
+    </div>
+</body>
+</html>
